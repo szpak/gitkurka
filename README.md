@@ -129,7 +129,7 @@
 ### IGNOROWANIE
 
 
-###### Usuwa z repozytorium nowo ignorowane pliki, po modyfikacji .gitignore. Comituje od razu tą zmianę.
+###### Usuwa z repozytorium nowo ignorowane pliki, po modyfikacji .gitignore. Comituje od razu tę zmianę.
     git fixgitignore
 
 ###### Ukrywa zmiany, tak że git status ich nie widzi
@@ -155,6 +155,9 @@
 
 ###### Sprawdza czy w repozytorium są jakieś pliki z "błędami białych spacji" (http://peter.eisentraut.org/blog/2014/11/04/checking-whitespace-with-git/)
     git check-whitespace
+
+###### Sprawdza czy w repozytorium są jakieś pliki z windowsowymi końcami lini (CRLF)
+    git check-eol
 
 ###### Wyświetla tickety Jirry z komentarzy
     git issues
